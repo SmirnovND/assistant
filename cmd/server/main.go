@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/SmirnovND/gophkeeper/internal/container"
-	"github.com/SmirnovND/gophkeeper/internal/interfaces"
-	"github.com/SmirnovND/gophkeeper/internal/router"
+	"github.com/SmirnovND/gobase/internal/container"
+	"github.com/SmirnovND/gobase/internal/interfaces"
+	"github.com/SmirnovND/gobase/internal/router"
 	"github.com/SmirnovND/toolbox/pkg/logger"
 	"github.com/SmirnovND/toolbox/pkg/middleware"
 	"github.com/SmirnovND/toolbox/pkg/migrations"

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/SmirnovND/gophkeeper/internal/interfaces"
+	"github.com/SmirnovND/gobase/internal/interfaces"
 	"gopkg.in/yaml.v3"
 	"log"
 	"os"

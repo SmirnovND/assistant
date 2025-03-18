@@ -2,9 +2,9 @@ package router
 
 import (
 	"fmt"
-	"github.com/SmirnovND/gophkeeper/internal/container"
-	"github.com/SmirnovND/gophkeeper/internal/controllers"
-	"github.com/SmirnovND/gophkeeper/internal/interfaces"
+	"github.com/SmirnovND/gobase/internal/container"
+	"github.com/SmirnovND/gobase/internal/controllers"
+	"github.com/SmirnovND/gobase/internal/interfaces"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/jmoiron/sqlx"
