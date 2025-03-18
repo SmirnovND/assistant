@@ -1,4 +1,4 @@
 /.idea
 /docker/postgres/data
 /cmd/server/config.yaml
-/.DS_Store
+.DS_Store
