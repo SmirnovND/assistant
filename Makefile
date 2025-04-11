@@ -21,10 +21,10 @@ down-docker:
 	docker-compose down
 
 migrate-up:
-	migrate -path migrations -database "postgresql://developer:developer@localhost:5432/gobase?sslmode=disable" up
+	migrate -path migrations -database "postgresql://developer:developer@localhost:5432/assistant?sslmode=disable" up
 
 migrate-down:
-	migrate -path migrations -database "postgresql://developer:developer@localhost:5432/gobase?sslmode=disable" down 1
+	migrate -path migrations -database "postgresql://developer:developer@localhost:5432/assistant?sslmode=disable" down 1
 
 migrate-create:
 	migrate create -ext sql -dir migrations -seq $(name)

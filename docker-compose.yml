@@ -6,7 +6,7 @@ services:
             - ./docker/postgres/data:/var/lib/postgresql/data
             - ./docker/postgres/config:/etc/postgresql
         environment:
-            - POSTGRES_DB=gobase
+            - POSTGRES_DB=assistant
             - POSTGRES_USER=developer
             - POSTGRES_PASSWORD=developer
         ports:

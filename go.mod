@@ -1,4 +1,4 @@
-module github.com/SmirnovND/gobase
+module github.com/SmirnovND/assistant
 
 go 1.24.1
 

@@ -1,8 +1,8 @@
 package container
 
 import (
-	config "github.com/SmirnovND/gobase/internal/config/server"
-	"github.com/SmirnovND/gobase/internal/interfaces"
+	config "github.com/SmirnovND/assistant/internal/config/server"
+	"github.com/SmirnovND/assistant/internal/interfaces"
 	"github.com/SmirnovND/toolbox/pkg/db"
 	"github.com/SmirnovND/toolbox/pkg/http"
 	"github.com/jmoiron/sqlx"
